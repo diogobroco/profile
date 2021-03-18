@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body {
+    background: #fceef5;
+    color: #731679;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    line-height: lighter;
+}
+
+h1 {
+    color: #cd80bd;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h2 {
+    color: #710757;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #410b0b;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+div {
+    display: block;
+}
+
+.card-white {
+    background-color: white;
+    padding: 34px;
+    box-shadow: 0px 15px 34px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.btn-pinky {
+    background-color: #822b85;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 6px;
+}
+
+.btn-pinky:hover {
+    background-color: #cd80bd;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 20px;
+}
+
+.list-inline i {
+    font-size: 64px;
+    color: rgb(146 47 47);
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read DESKTOP*/ 
+    .container {
+      width: 800px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read TABLET*/
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read PHONES*/
+    .container {
+      width: 300px;
+    }
+  }
